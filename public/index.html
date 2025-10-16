@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A bold, modern website foundation with unconventional design and cutting-edge aesthetics.">
+
+  <meta property="og:title" content="Inspire - Modern Foundation">
+  <meta property="og:description"
+    content="A bold, modern website foundation with unconventional design and cutting-edge aesthetics.">
+  <meta property="og:type" content="website">
+
+  <title>Inspire - Modern Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css?v=8">
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="/" class="site-logo" data-testid="link-home">Bloom</a>
+
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about" data-testid="link-about">About</a></li>
+          <li><a href="#features" data-testid="link-features">Features</a></li>
+          <li><a href="#contact" data-testid="link-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile navigation menu" aria-expanded="false"
+        data-testid="button-menu-toggle">
+        <span class="hamburger-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" role="region" aria-labelledby="hero-heading">
+      <div class="hero-grid container">
+    
+        <div class="hero-top">
+          <div class="hero-top-left">
+            <div class="hero-text-block">
+              <div class="animate-on-scroll"><h1 id="hero-heading">Good Design is Good Business</h1></div>
+            </div>
+            <div class="hero-image-block-small">
+              <img class="star-circle-small" src="/images/star.svg" alt="A small decorative star">
+            </div>
+          </div>
+          <div class="hero-image-block-large">
+            <img class="starburst-large" src="/images/vector.svg" alt="A large decorative starburst">
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-description-block">
+            <div class="animate-on-scroll"><p class="hero-subheading">Breaking conventions with bold design choices that challenge the ordinary and
+              inspire the extraordinary</p></div>
+          </div>
+          <div class="hero-cta-block animate-on-scroll">
+            <a href="#get-started" class="cta-button" data-testid="button-cta-hero"><span>Start Creating</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="container">
+        <h2>Unconventional by Design</h2>
+        <p class="section-intro">We don't follow trends—we create them. Bold typography, asymmetric layouts, and
+          fearless color choices define our modern aesthetic.</p>
+
+        <div class="feature-grid">
+          <article class="feature-card card-animate-on-scroll">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>Bold Structure</h3>
+            <p>Semantic HTML meets fearless design. Every element serves a purpose, but never apologizes for standing
+              out.</p>
+          </article>
+
+          <article class="feature-card card-animate-on-scroll">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <line x1="9" y1="3" x2="9" y2="21" />
+              </svg>
+            </div>
+            <h3>Asymmetric Grids</h3>
+            <p>Dynamic bento-box layouts that break free from traditional grid systems, creating visual interest at
+              every scroll.</p>
+          </article>
+
+          <article class="feature-card card-animate-on-scroll">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </div>
+            <h3>Modern Tech</h3>
+            <p>Gradient text, CSS Grid mastery, and custom properties pushing the boundaries of what's possible with
+              pure CSS.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="content-section alt-section">
+      <div class="container">
+        <h2>Made to Stand Out</h2>
+        <p class="section-intro">Every pixel is intentional. Every interaction is memorable. This is design with
+          attitude.</p>
+
+        <div class="two-column-layout">
+          <div class="column animate-on-scroll">
+            <h3>Dramatic Typography</h3>
+            <p>Oversized headlines with gradient fills command attention. Ultra-bold weights and tight letter spacing
+              create visual tension that draws the eye.</p>
+            <p>Uppercase text transforms ordinary words into powerful statements. This isn't just text—it's a visual
+              experience.</p>
+          </div>
+
+          <div class="column animate-on-scroll">
+            <h3>Fearless Contrast</h3>
+            <p>Bold black borders slice through clean white space. Vibrant gradients clash beautifully with stark
+              monochrome elements.</p>
+            <p>Dark mode flips the script entirely, proving that great design adapts while maintaining its distinct
+              personality and edge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="content-section alt-section">
+    
+      <div class="container">
+    
+        <h2>Visual Impact</h2>
+        <p>Every pixel tells a story. Explore our collection of bold, unconventional design moments.</p>
+    
+        <div class="gallery-grid">
+    
+          <div class="gallery-item animate-on-scroll">
+            <video src="/images/geometry.mp4" autoplay loop muted playsinline alt="Abstract geometric shapes"></video>
+            <p class="gallery-caption">Bold Geometry</p>
+          </div>
+    
+          <div class="gallery-item animate-on-scroll">
+            <img src="images/Clean-line.png"
+              alt="Modern minimalist architecture">
+            <p class="gallery-caption">Clean Lines</p>
+          </div>
+    
+          <div class="gallery-item animate-on-scroll">
+            <video src="/images/vibrant-flowers.mp4" autoplay loop muted playsinline
+              alt="Vibrant flowers"> </video>
+            <p class="gallery-caption">Color Theory</p>
+          </div>
+    
+          <div class="gallery-item animate-on-scroll">
+            <img src="/images/type-in-motion.png" style="max-height: 500px;"
+              alt="Dynamic typography design">
+            <p class="gallery-caption">Type in Motion</p>
+          </div>
+    
+          <div class="gallery-item animate-on-scroll">
+            <img src="/images/fluid-form.png"
+              alt="Abstract fluid shapes">
+            <p class="gallery-caption">Fluid Forms</p>
+          </div>
+    
+          <div class="gallery-item animate-on-scroll">
+            <img src="/images/digital-glow.png"
+              alt="Neon light installations">
+            <p class="gallery-caption">Digital Glow</p>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="content-section">
+      <div class="container">
+        <h2>Choose Your Impact</h2>
+        <p class="section-intro">Bold design comes in different flavors. Pick the one that matches your ambition.</p>
+
+        <div class="pricing-grid">
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-header">
+              <h3>Starter</h3>
+              <div class="price-tag">
+                <span class="currency">$</span>
+                <span class="amount">29</span>
+                <span class="period">/mo</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>Bold Typography System</li>
+              <li>Asymmetric Grid Layouts</li>
+              <li>5 Custom Components</li>
+              <li>Dark Mode Support</li>
+              <li>Community Access</li>
+            </ul>
+            <a href="#starter" class="pricing-button" aria-label="button-pricing-starter">Get Started</a>
+          </div>
+
+          <div class="pricing-card featured animate-on-scroll">
+            <div class="featured-badge">Popular</div>
+            <div class="pricing-header">
+              <h3>Professional</h3>
+              <div class="price-tag">
+                <span class="currency">$</span>
+                <span class="amount">99</span>
+                <span class="period">/mo</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>Everything in Starter</li>
+              <li>Advanced Animations</li>
+              <li>20 Custom Components</li>
+              <li>Scroll Trigger Effects</li>
+              <li>Priority Support</li>
+              <li>Custom Gradients</li>
+            </ul>
+            <a href="#pro" class="pricing-button" aria-label="button-pricing-pro">Go Pro</a>
+          </div>
+
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-header">
+              <h3>Enterprise</h3>
+              <div class="price-tag">
+                <span class="currency">$</span>
+                <span class="amount">299</span>
+                <span class="period">/mo</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>Everything in Pro</li>
+              <li>Unlimited Components</li>
+              <li>White Label Solution</li>
+              <li>Dedicated Designer</li>
+              <li>Custom Branding</li>
+              <li>24/7 Premium Support</li>
+            </ul>
+            <a href="#enterprise" class="pricing-button" aria-label="button-pricing-enterprise">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="container centered-content card-animate-on-scroll">
+        <h2>Ready to Break Rules?</h2>
+        <p class="section-intro">Join the movement of designers and developers who refuse to blend in with the crowd.
+        </p>
+        <a href="#get-started" class="cta-button" aria-label="button-cta-contact">Let's Go</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="copyright">&copy; 2025 Inspire Foundation</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+          <li><a href="#privacy" data-testid="link-privacy">Privacy</a></li>
+          <li><a href="#terms" data-testid="link-terms">Terms</a></li>
+          <li><a href="#contact" data-testid="link-footer-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
